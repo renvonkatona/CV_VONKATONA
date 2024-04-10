@@ -1,9 +1,8 @@
 /* Estilos generales */
 body {
-   
     font-family: 'Alfa Slab One', cursive;
-    background: linear-gradient(135deg, #000000, #1c1c1c);
-    color: #fff;
+    background-color: #f4f1ea; /* Color de fondo suave */
+    color: #333; /* Color de texto principal */
     margin: 0;
     padding: 0;
 }
@@ -17,12 +16,12 @@ body {
 /* Estilos de encabezado */
 h1 {
     text-align: center;
-    color: #ffcc00;
+    color: #6d6d6d; /* Color de encabezado principal */
 }
 
 h2 {
     text-align: center;
-    color: #ffcc00;
+    color: #6d6d6d; /* Color de encabezado secundario */
 }
 
 /* Estilos de la lista de integrantes */
@@ -34,9 +33,9 @@ ul {
 .integrante {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #fff; /* Fondo de cada integrante */
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .integrante img {
@@ -45,7 +44,7 @@ ul {
 }
 
 .integrante a {
-    color: #ffcc00;
+    color: #428bca; /* Color de enlaces */
     text-decoration: none;
 }
 
@@ -55,19 +54,18 @@ ul {
 
 /* Estilos del módulo */
 .modulo {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #fff; /* Fondo de cada módulo */
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .modulo a {
-    color: #ffcc00;
+    color: #428bca; /* Color de enlaces */
     text-decoration: none;
 }
 
 .modulo a:hover {
     text-decoration: underline;
 }
-
