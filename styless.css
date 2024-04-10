@@ -1,5 +1,6 @@
 /* Estilos generales */
 body {
+     background-color: rgb(164, 213, 238);
     font-family: 'Alfa Slab One', cursive;
     background: linear-gradient(135deg, #000000, #1c1c1c);
     color: #fff;
