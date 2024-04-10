@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Arial', sans-serif; /* Cambio de fuente a Arial */
     background-color: #f4f1ea; /* Color de fondo suave */
     color: #333; /* Color de texto principal */
     margin: 0;
