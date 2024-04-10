@@ -1,5 +1,13 @@
 body{
-    background-color: rgb(39, 160, 220);
-
+    background-color: rgb(83, 175, 220);
 
 }
+h1 {
+    color: rgb(241, 241, 245);
+    font-size:25px;
+}
+html {
+    font-size: 12px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: "Alfa Slab One", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+  }
+  
