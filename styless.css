@@ -1,8 +1,8 @@
 /* Estilos generales */
 body {
     font-family: 'Alfa Slab One', cursive;
-    background-color: #f0f0f0;
-    color: #333;
+    background: linear-gradient(135deg, #000000, #1c1c1c);
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -16,12 +16,12 @@ body {
 /* Estilos de encabezado */
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffcc00;
 }
 
 h2 {
     text-align: center;
-    color: #666;
+    color: #ffcc00;
 }
 
 /* Estilos de la lista de integrantes */
@@ -33,9 +33,9 @@ ul {
 .integrante {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .integrante img {
@@ -44,7 +44,7 @@ ul {
 }
 
 .integrante a {
-    color: #3366cc;
+    color: #ffcc00;
     text-decoration: none;
 }
 
@@ -54,18 +54,19 @@ ul {
 
 /* Estilos del módulo */
 .modulo {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
 .modulo a {
-    color: #3366cc;
+    color: #ffcc00;
     text-decoration: none;
 }
 
 .modulo a:hover {
     text-decoration: underline;
 }
+
