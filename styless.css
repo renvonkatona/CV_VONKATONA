@@ -1,13 +1,71 @@
-body{
-    background-color: rgb(83, 175, 220);
+/* Estilos generales */
+body {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
+
+/* Estilos de encabezado */
 h1 {
-    color: rgb(241, 241, 245);
-    font-size:25px;
+    text-align: center;
+    color: #333;
 }
-html {
-    font-size: 12px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
-    font-family: "Alfa Slab One", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
-  }
-  
+
+h2 {
+    text-align: center;
+    color: #666;
+}
+
+/* Estilos de la lista de integrantes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.integrante {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.integrante img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.integrante a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.integrante a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del módulo */
+.modulo {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.modulo a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.modulo a:hover {
+    text-decoration: underline;
+}
