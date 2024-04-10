@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif; /* Cambio de fuente a Arial */
     background-color: #f4f1ea; /* Color de fondo suave */
     color: #333; /* Color de texto principal */
-    margin: 0;
+    margin: center;
     padding: 0;
 }
 
